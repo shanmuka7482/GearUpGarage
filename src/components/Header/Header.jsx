@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
+
       <div className="container">
         <div>
           <img src={Logo} alt="" />
@@ -18,7 +18,7 @@ const Header = () => {
             <button type="button">Login</button>
         </div>
       </div>
-    </header>
+
   );
 };
 
