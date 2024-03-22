@@ -4,7 +4,6 @@ import image3 from "./slideshow-3.jpg";
 
 export const Slidedata = [
   {
-    id: 0,
     image: image1,
     title: "On-Demand Auto Care",
     discription:
@@ -12,14 +11,12 @@ export const Slidedata = [
   },
 
   {
-    id: 1,
     image: image2,
     title: "Convenient Auto Care",
     discription:
       "Get convenient motor servicing at your doorstep or mobile automotive repair services for on-the-go convenience.",
   },
   {
-    id: 2,
     image: image3,
     title: "Mobile Repair Solutions",
     discription:
