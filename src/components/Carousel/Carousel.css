@@ -1,47 +1,39 @@
-.slider {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .image {
   width: 100%;
   height: auto;
 }
-.rightarrow {
-  position: absolute;
-  top: 60%;
-  right: 32px;
-  font-size: 3rem;
-  color: black;
-  cursor: pointer;
-  user-select: none;
-  z-index: 10;
-  opacity: 0.7;
-}
-.rightarrow:hover {
-  opacity: 1;
-}
+/* Update the CSS for the arrows */
+.rightarrow,
 .leftarrow {
   position: absolute;
-  top: 60%;
-  left: 32px;
+  top: 50%; /* Adjust as needed */
   font-size: 3rem;
-  color: black;
+  color: white;
   cursor: pointer;
   user-select: none;
   z-index: 10;
   opacity: 0.7;
 }
+
+.rightarrow {
+  right: 32px; /* Position the right arrow */
+}
+
+.leftarrow {
+  left: 32px; /* Position the left arrow */
+}
+
+/* Adjust the opacity on hover for both arrows */
+.rightarrow:hover,
 .leftarrow:hover {
   opacity: 1;
 }
-.slide {
-  opacity: 0;
-  transition-duration: 1s ease;
-}
-.slideactive {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
+
+/* Update the parent container to position the arrows relatively */
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
