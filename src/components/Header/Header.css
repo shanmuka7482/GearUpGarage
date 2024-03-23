@@ -1,13 +1,13 @@
- img {
+img {
   width: 276px;
   height: 97px;
 }
- .container {
+.container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
- a {
+a {
   text-decoration: none;
   color: #0b090b;
   margin-right: 8pt;
